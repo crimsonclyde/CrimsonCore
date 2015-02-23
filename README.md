@@ -7,11 +7,11 @@
         \/                \/     \/  Core      \/   </pre>
 
 
-
-**Author  :** | CrimsonClyde<br>
-**Email   :** | crimsonclyde_at_gmail.com<br>
-**Version :** | Beta 7.5<br>
-**Codename:** | Michael F. Stoppe<br>
+-------------- | -----------------------------
+**Author  :**  | CrimsonClyde
+**Email   :**  | crimsonclyde_at_gmail.com
+**Version :**  | Beta 7.5
+**Codename:**  | Michael F. Stoppe
 
 
 ### Project Discription:
