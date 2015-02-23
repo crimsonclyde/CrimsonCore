@@ -6,9 +6,8 @@
   \______  /|__|  |__|__|_|  /____  >____/|___|  /
         \/                \/     \/  Core      \/   </pre>
 
-  | 
+ Author        | CrimsonClyde
 -------------- | -----------------------------
-**Author  :**  | CrimsonClyde
 **Email   :**  | crimsonclyde_at_gmail.com
 **Version :**  | Beta 7.5
 **Codename:**  | Michael F. Stoppe
