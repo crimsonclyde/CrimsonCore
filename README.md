@@ -6,7 +6,7 @@
   \______  /|__|  |__|__|_|  /____  >____/|___|  /
         \/                \/     \/  Core      \/   </pre>
 
-
+ Author | Name
 -------------- | -----------------------------
 **Author  :**  | CrimsonClyde
 **Email   :**  | crimsonclyde_at_gmail.com
