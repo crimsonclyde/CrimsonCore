@@ -8,22 +8,23 @@
 
 
 
-**Author  :** CrimsonClyde<br>
-**Email   :** crimsonclyde_at_gmail.com<br>
-**Version :** Beta 7.5<br>
-**Codename:** Michael F. Stoppe<br>
+**Author  :** | CrimsonClyde<br>
+**Email   :** | crimsonclyde_at_gmail.com<br>
+**Version :** | Beta 7.5<br>
+**Codename:** | Michael F. Stoppe<br>
 
 
 ### Project Discription:
 First of all the project is dedicated to one of my most beloved adventures ManiacMansion from 1987. The introducion of the digital Skywalker Ranch which is also used in the sequel Day of the Tentacle.
 
-* beta 1 = Jeff Woodie        "Surfer Dude"
-* beta 2 = Sandy Pantz        "Stereotypical blonde cheerleader"
-* beta 3 = Ted                "Dead cousin"
-* beta 4 = Dr. Fred Edision   "Mad scientist"
-* beta 5 = Razor              "Punk Girl"
-* beta 6 = Syd                "Guy who put the hamster in the microwave"
-* beta 7 = Michael F. Stoppe  "Award winning photographer"
+- [x] beta 1 = Jeff Woodie        "Surfer Dude"
+- [x] beta 2 = Sandy Pantz        "Stereotypical blonde cheerleader"
+- [x] beta 3 = Ted                "Dead cousin"
+- [x] beta 4 = Dr. Fred Edision   "Mad scientist"
+- [x] beta 5 = Razor              "Punk Girl"
+- [x] beta 6 = Syd                "Guy who put the hamster in the microwave"
+- [x] beta 7 = Michael F. Stoppe  "Award winning photographer"
+- [ ] beta 8 = t.b.a.
 
 ### So, whats that heck is that all about?
 Fun and learning, not more not less. I start by lighting up a simple LED with an Arduino Nano. A few days later I started to build twilight control to light up 230V LEDs to illuminate my stone circle. Days go by and I find myself into building up a my own home automation control. I learned quite a lot and after switching to a Spark Core (https://spark.io) I added a temperature sensor and store the results in a database. Now I am able to use a bunch of program languages and scripting skills. So never stop learning!
@@ -34,7 +35,7 @@ I liked the game and still the complete genre. A good project needs a good coden
 
 ### Roadmap
 
-#### Beta 5 "Razor" 
+#### Beta 5 "Razor"
 Razor is a punk girl. The lead-singer of the band "Razor and the Scummetts" This is punk because it is completely rewritten. Due to the Architecture change from Arduino (Atmel ATMega328) to Spark Core (STM32F103CB - ARM 32-bit Cortex M3). Not all what I have done with the Arduino runs exactly on the Spark Core. Example: I do not need a RTC Module anymore, because I am connected to Wifi and therefore I can use time syncronisation (just like NTP). Beta 5 should be the proof-of-concept if everything works and then I can impliment new features like webaccess.
 
 #### Beta 6 "Syd"
