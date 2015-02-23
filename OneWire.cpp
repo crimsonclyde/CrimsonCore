@@ -1,5 +1,15 @@
-// This code is taken from http://pastebin.com/iYcDkrLw.
-// This is written by @tidwelltimj (https://community.spark.io/users/tidwelltimj/activity)
+/* *****************************************************************************
+ * _________        .__
+ * \_   ___ \_______|__| _____   __________   ____
+ * /    \  \/\_  __ \  |/     \ /  ___/  _ \ /    \
+ * \     \____|  | \/  |  | |  \\___ (  <_> )   |  \
+ *  \______  /|__|  |__|__|_|  /____  >____/|___|  /
+ *        \/                \/     \/  Core      \/
+ *
+ *
+ * Library by tidwelltimj (http://pastebin.com/iYcDkrLw)
+ * Modified by kvarma (https://github.com/krvarma/Dallas_DS18B20_SparkCore)
+ ***************************************************************************** */
 
 #include "OneWire.h"
 #include "application.h"

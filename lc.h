@@ -1,4 +1,12 @@
-/*
+/* *****************************************************************************
+ * _________        .__
+ * \_   ___ \_______|__| _____   __________   ____
+ * /    \  \/\_  __ \  |/     \ /  ___/  _ \ /    \
+ * \     \____|  | \/  |  | |  \\___ (  <_> )   |  \
+ *  \______  /|__|  |__|__|_|  /____  >____/|___|  /
+ *        \/                \/     \/  Core      \/
+ *
+ *
  * Copyright (c) 2004-2005, Swedish Institute of Computer Science.
  * All rights reserved.
  *
@@ -26,12 +34,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * This file is part of the protothreads library.
+ * This file is part of the Contiki operating system.
  *
  * Author: Adam Dunkels <adam@sics.se>
- *
- * $Id: lc.h,v 1.2 2005/02/24 10:36:59 adam Exp $
- */
+ ***************************************************************************** */
 
 /**
  * \addtogroup pt

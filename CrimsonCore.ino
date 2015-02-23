@@ -1,98 +1,18 @@
-/*********************************************************************************************************************************
-     _____
-  __|___  |____
- |   ___|      |
- |   |__       |
- |______|rimson|
-    |__CTRL__|       "Beta 7.5"
+/* *****************************************************************************
+ * _________        .__
+ * \_   ___ \_______|__| _____   __________   ____
+ * /    \  \/\_  __ \  |/     \ /  ___/  _ \ /    \
+ * \     \____|  | \/  |  | |  \\___ (  <_> )   |  \
+ *  \______  /|__|  |__|__|_|  /____  >____/|___|  /
+ *        \/                \/     \/  Core      \/
+ *
+ *
+ * Author  : CrimsonClyde
+ * Email   : clyde@darkpack.net
+ *
+ ***************************************************************************** */
 
 
-Author : CrimsonClyde
-Email  : clyde@darkpack.net
-Version: beta7 "Michael F. Stoppe"
-
-Project Discription:
-First of all the project is dedicated to one of my most beloved adventures
-ManiacMansion from 1987. The introducion of the digital Skywalker Ranch which
-is also used in the sequel Day of the Tentacle.
-
-beta 1 = Jeff Woodie        "Surfer Dude"
-beta 2 = Sandy Pantz        "Stereotypical blonde cheerleader"
-beta 3 = Ted                "Dead cousin"
-beta 4 = Dr. Fred Edision   "Mad scientist"
-beta 5 = Razor              "Punk Girl"
-beta 6 = Syd                "Guy who put the hamster in the microwave"
-beta 7 = Michael F. Stoppe  "Award winning photographer"
-
-So, whats that hell is that all about?
-I build up CrimsonControl at first only to open up a new world for myself.
-I never had done things with microchips and electronics, nor I never had
-coded with kind of a real program language like C or C++. To give it a
-practical use I thought to build something like a twilight control for my stone
-circle light in my front garden. Pretty neat, eh? Till beta3 CrimsonControl
-also has ability to control the bell over the interrupt feature.
-Sadly I must take that out since beta3, that is the reason why it´s called
-Ted. Problems with secondary voltage,...
-
-Beta 5 "Razor"! Razor is a punk girl. The lead-singer of the band "Razor and the Scummetts"
-This is punk because it is completely rewritten.
-Due to the Architecture change from Arduino (Atmel ATMega328) to Spark Core
-(STM32F103CB - ARM 32-bit Cortex M3). Not all what I have done with the Arduino runs exactly
-on the Spark Core. Example: I do not need a RTC Module anymore, because I am connected to
-Wifi and therefore I can use time syncronisation (just like NTP). Beta 5 should be the
-proof-of-concept if everything works and then I can impliment new features like webaccess.
-Beta 6 "Syd" the only one who accepts to put the hamster in the microwave. So we have nearly
-all done. Things will work. Only a few of them not. OLED Display runs a button to turn it off
-or on is installed. The OLED-Icons are upgreaded. The function to save energy is installed
-know as deep-sleep-mode. CrimsonCTRL works now pretty smoth. Some recode needed
-to get it to HTML5 with change the Mobile/Web view only over the stylesheet. The buttons
-did not work for switching the StoneCircleLight directly over the webinterface.
-Beta 7:
-Introducing the first half-backed-nearly-ready codebase and the web buttons works now. We can
-switch the Stone-Circle-Light on/off over our HTML5 page.
-A bunch of bugfixes and workarounds. E.g. there was a problem when the Core has no internet/
-cloud connection in this case no code is executed. The Core tries over and over again to get
-the connection back on, in this time no code is executed. The GPIO pin used for the Stone-Circle-
-Light is set to LOW which means the relay is closed and therefore the light is on. This is bad
-because if we are not at home and the internet is down we waste power for nothing. With late
-beta 6 and now stable in beta 7 we switched to Semi-Automated mode. If this is set, the Core
-first execute the code. Setup() runs pin is set to HIGH, light is off we get into the loop() and
-now we can connect on our on purpose.
-
-
-Conclusion:
-How knows, maybe someday I find the fuel for the chainsaw and get your brain
-for my evil plans to take over the world. In fact - be prepared...
-
-Ressources:
-The libraries used in this project are not written nor owned by myself.
-Rights and Kudos goes all to the people who made this work. If I get the name of an Autor
-I will include it right here:
-- DigoleSerialDisplay OLED : https://github.com/timothybrown/Spark-Core-Sundries
-- OneWire Library          : https://github.com/krvarma/Dallas_DS18B20_SparkCore
-- DS18B20 Library          : https://github.com/krvarma/Dallas_DS18B20_SparkCore
-- Adam Dunkels Protothreads: https://code.google.com/p/arduinode/downloads/detail?name=pt.zip
-- Bitmaps Creator          : http://pixieengine.com/pixel-editor
-- Bitmaps Converter        : http://www.digole.com/tools/PicturetoC_Hex_converter.php
-
-Wiring:
-A1  -   Photo Resistor -        - grey
-A2  -   Digole SS               -
-A3  -   Digole CLK              -
-A5  -   Digole Data             -
-GND -   5V- (Bell)              - black
-VIN -   5V+ (Bell)              - purple
-D2  -   Temp Sensor Data        - yellow
-D3  -   SCL Relais Data         - white
-GND -   Photo Resistor +        - red
-
-
-Licence
-This project (without the libraries is licensed under the Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International License.
-To view a copy of this license, visit:
-http://creativecommons.org/licenses/by-nc-sa/4.0/.
-********************************************************************************************************************************/
 
 // ------------------------------------------------------------------------------------------------------------------------------
 //                                                Libraries
