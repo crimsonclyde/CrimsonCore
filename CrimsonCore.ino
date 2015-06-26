@@ -42,7 +42,7 @@ int introDuration = 5000;                                   // Time intro runs a
 int introDelay    = 20;                                     // Delay time globally used in the intro
 
 // Clock
-int timeZone = +1;                                          // Sommertime (DST) UTC+2, Wintertime (Normaltime) +1
+int timeZone = +2;                                          // Sommertime (DST) UTC+2, Wintertime (Normaltime) +1
 
 // Digole TrueColor 1.8 OLED
 DigoleSerialDisp digole(A2);
@@ -119,7 +119,7 @@ void funcIntro(void) {
         digole.drawBitmap(intro2,0,32,32, ccC);
         delay(introDelay);
     }
-    digole.setTextPosAbs(108, 32); digole.print("trl");
+    digole.setTextPosAbs(108, 32); digole.print("ore");
     digole.drawHLine(0,35,160);
     digole.drawBitmap(20, 50, 128, 64, ccIntro);
     delay(introDuration);
@@ -347,7 +347,7 @@ void funcUpdateLCD(void) {
     digole.drawBitmap(0,0,32,32, ccC);
     digole.setTextPosAbs(33, 32); digole.print("rimson");
     digole.drawBitmap(83,0,32,32, ccC);
-    digole.setTextPosAbs(108, 32); digole.print("trl");
+    digole.setTextPosAbs(108, 32); digole.print("core");
     digole.drawHLine(0,35,160);
 
     // Setup clock icon

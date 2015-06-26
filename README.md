@@ -6,15 +6,18 @@
   \______  /|__|  |__|__|_|  /____  >____/|___|  /
         \/                \/     \/  Core      \/   </pre>
 
-Author        | CrimsonClyde
+Author         | CrimsonClyde
 -------------- | -----------------------------
 **Email   :**  | crimsonclyde_at_gmail.com
 **Version :**  | Beta 7.5
 **Codename:**  | Michael F. Stoppe
 
+![alt text](https://universe.crimson.space/wp-content/uploads/2015/02/CrimsonCore1-150x150.png "CrimsonCore Icon")
 
 ### Project Discription:
-First of all this project is dedicated to one of my most beloved adventures Maniac Mansion from 1987. The introducion of the digital Skywalker Ranch which is also used in the sequel Day of the Tentacle.
+CrimsonCore is the central planet in the CrimsonUniverse. Based on a Particle Core (https://particle.io) it controls a relay to active a led light to illuminate a stone circle. To do so it measures the brightness with a photo resistor and by a given value it switches the relay on. CrimsonCore measures the temperature and store the values in the cloud. An OLED display is attached to the Core and displays the time, temperature and the status of the relay.
+The project is dedicated to a game, back in the days, that I am absolutly adore. Maniac Mansion from 1987. Therefore the version names are based on characters from the game. Don´t be scared there is more freakiness out there.
+
 
 - [x] beta 1 = Jeff Woodie        "Surfer Dude"
 - [x] beta 2 = Sandy Pantz        "Stereotypical blonde cheerleader"
@@ -25,8 +28,10 @@ First of all this project is dedicated to one of my most beloved adventures Mani
 - [x] beta 7 = Michael F. Stoppe  "Award winning photographer"
 - [ ] beta 8 = t.b.a.
 
+
 ### So, whats that heck is that all about?
-Fun and learning, don´t stop using my mind. In the beginning I simply start by lighting up a LED with an Arduino Nano. A few days later I started to extend the project and used my gained skills to build a twilight sensir that controls a relay to light up a 230V LED to illuminate my stone circle. Days go by and I find myself into building up  my own home automation control. I learned quite a lot and after switching to a Spark Core (https://spark.io) I added a temperature sensor and an OLED display. Now I am able to use a bunch of program languages and scripting skills. So never stop learning!
+Fun and learning, don´t stop using my mind. As I started I simply want to attach a LED to an Arduino Nano. Days go by and I found myself knee-deep into hooking up more components and sensors and a relay to control a 230V light. I learned quite a lot these days and after a while I build a bit of an home automation system. Starting with an Arduino Nano I switched to an Particle Core as base micro controller.
+Never stop learning.
 
 
 ### Roadmap
@@ -43,7 +48,7 @@ switch the Stone-Circle-Light on/off over our HTML5 page. A bunch of bugfixes an
 
 
 ### Conclusion:
-How knows, maybe someday I find the fuel for the chainsaw in another game.
+Who knows, maybe someday I find the fuel for the chainsaw in another game.
 
 ### Ressources:
 The libraries used in this project are not written nor owned by myself. Rights and Kudos goes all to the people who made this work. If an Author is missing, and you are the one, or know the Author please drop me a email.
