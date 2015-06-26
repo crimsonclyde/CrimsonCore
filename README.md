@@ -30,8 +30,7 @@ The project is dedicated to a game, back in the days, that I am absolutly adore.
 
 
 ### So, whats that heck is that all about?
-Fun and learning, don´t stop using my mind. As I started I simply want to attach a LED to an Arduino Nano. Days go by and I found myself knee-deep into hooking up more components and sensors and a relay to control a 230V light. I learned quite a lot these days and after a while I build a bit of an home automation system. Starting with an Arduino Nano I switched to an Particle Core as base micro controller.
-Never stop learning.
+Fun. Learning. Brainfood. As I started I simply want to attach a LED to an Arduino Nano. Days go by and I found myself knee-deep into hooking up more components and sensors and a relay to control a 230V light. I learned quite a lot these days and after a while I build a bit of an home automation system. Starting with an Arduino Nano I switched to an Particle Core as base micro controller.
 
 
 ### Roadmap
@@ -72,7 +71,7 @@ The libraries used in this project are not written nor owned by myself. Rights a
 * GND -   Photo Resistor +        - red
 
 
-### Licence (without any of the libraries)
+### Licence (without any of the libraries used)
 Copyright (C) 2015 CrimsonClyde
 
 These programs are free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
